@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f; /* Fundo mais escuro */
+    color: #ffffff; /* Texto claro */
+    padding: 20px;
+}
+
+h1 {
+    color: #ffd700; /* Um amarelo dourado bonito */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd700;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffa500; /* Amarelo mais quente */
+}
+
+form {
+    background-color: #2a2a3b; /* Fundo escuro para o formulário */
+    padding: 20px;
+    border-radius: 12px; /* Bordas mais suaves */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra moderna */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #444; /* Contorno mais escuro */
+    border-radius: 8px;
+    background-color: #2e2e3e; /* Fundo para inputs */
+    color: #fff;
+}
+
+button {
+    background-color: #ffd700; /* Amarelo vibrante */
+    color: #1e1e2f; /* Contraste para o texto */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffa500; /* Tom alaranjado ao passar o mouse */
+}
+
+#messagesList {
+    margin-top: 20px;
+}
+
+#messagesList div {
+    background-color: #2e2e3e; /* Fundo para as mensagens */
+    padding: 10px;
+    border: 1px solid #444;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#messagesList div:hover {
+    background-color: #3b3b4d; /* Realce ao passar o mouse */
+}
+
+#messageDetail {
+    background-color: #2a2a3b; /* Fundo detalhado */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea {
+    resize: vertical;
+    background-color: #2e2e3e; 
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 8px;
+}
+
+button.logout {
+    background-color: #e74c3c; /* Vermelho forte */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button.logout:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+}
